@@ -1,1 +1,4 @@
-
+wait(150)
+local FarmFestivalID = game:GetService("TeleportService")
+local Player = game:GetService("Players").LocalPlayer
+FarmFestivalID:Teleport(game.PlaceId, Player)
